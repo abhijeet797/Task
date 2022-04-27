@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  font-weight: 600;
+  border-bottom: 1px solid rgb(129, 129, 131);
+}
+.navbar .navbar-brand {
+  /* font-weight: 700; */
+  color: black;
+  font-size: 25px;
+}
+.navbar .nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(129, 129, 131);
+}
+.navbar .nav-link:hover {
+  font-weight: 500;
+  color: rgb(82, 183, 223);
+}
+.navbar .active {
+  font-weight: 500;
+  color: rgb(82, 183, 223);
+}
+.navbar a:active {
+  font-weight: 600;
+  color: rgb(129, 129, 131);
+}
+.dropdown-menu, .dropdown-item{
+    text-align: center;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}

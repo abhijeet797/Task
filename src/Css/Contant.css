@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Roboto:wght@400;500;700;900&display=swap");
+#contant {
+  padding: 50px;
+  font-family: "Roboto", sans-serif;
+}
+/* =================== */
+.Card_box{
+    padding-right:40px;
+}
+.Card_head{
+    display: flex;
+    padding: 5px 5px 5px 10px;
+}
+.Card_head i{
+    color: rgb(167, 68, 224);
+    padding-top: 10px;
+    font-size: 25px !important;
+}
+.card{
+    border-radius: 10px;
+    border: 0px;
+    display: flex;
+    box-shadow: 0px 2px 10px black;
+    overflow: hidden;
+    background-image: radial-gradient(rgb(68, 17, 73), rgb(68, 17, 73),rgb(23, 3, 24) ,rgb(23, 3, 24));
+}
+.card-body {
+  padding: 0px 10px;
+}
+small {
+  font-weight: 700;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  color: rgb(167, 68, 224);
+}
+.card-body p {
+  line-height: 15px !important;
+  font-size: 12px !important;
+  color: white !important;
+  font-family: "Josefin Sans", sans-serif;
+}
+.card-title {
+  font-size: 25px;
+  margin-bottom: 0px !important;
+  line-height: 25px !important;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.list-group {
+  background-color: white;
+}
+.list-group-item {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(189, 134, 240);
+  font-family: "Josefin Sans", sans-serif;
+}
+.image{
+    height: 300px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.fa-head-side-virus{
+    font-size: 150px;
+    color: white;
+}
+/* =================== */
+.Text{
+    margin: auto;
+}
+#contant  {
+ background-color: rgb(244, 247, 247);
+}
+#contant h2 {
+  font-weight: 700;
+  line-height: 40px;
+}
+#contant .Text h5 {
+  line-height: 40px;
+  font-weight: 400 !important;
+}
+#contant p {
+  line-height: 20px;
+  font-size: 14px;
+  color: rgb(129, 129, 131);
+}
+.tab_list {
+  display: flex;
+  width: 80%;
+  padding: 10px 0px;
+  margin: 35px 0px;
+  /* justify-content: space-between; */
+  border-top: 1px solid rgb(175, 175, 180);
+  border-bottom: 1px solid rgb(188, 188, 192);
+}
+.tab_list .tab {
+  padding-right: 70px;
+  font-weight: 500;
+  cursor: pointer;
+  position:relative;
+}
+.tab_list .tab:hover {
+  color: rgb(82, 183, 223);
+}
+.TabHover {
+  position:absolute;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+  /* width: 100%; */
+  text-align: center;
+  top: 35px;
+  display: none;
+}
+.tab:hover .TabHover {
+  display: block;
+}
+.hover_img{
+    width: 35px;
+}
+button {
+  padding: 5px 20px !important;
+}
